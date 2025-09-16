@@ -1,0 +1,3 @@
+This is the first lab experiment for the academic elective in the third semester of MCA.
+
+The task is to execute and learn about commands of git
