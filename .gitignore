@@ -1,0 +1,91 @@
+# DevOps Tool Artifacts
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+
+# Jenkins
+.jenkins/
+
+# Ansible
+*.retry
+.vault_pass
+
+# AWS CLI
+.aws/credentials
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# Build artifacts
+dist/
+build/
+target/
+*.jar
+*.war
+*.ear
+
+# Node.js (for web-based DevOps tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Secrets and sensitive files
+secrets/
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
